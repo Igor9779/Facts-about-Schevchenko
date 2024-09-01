@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taras-Lovelas</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neucha&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="main-title">
+        П&apos;ять цікавих фактів про жінок Тараса Шевченка
+      </h1>
+      <div class="image-container">
+        <img src="../images/Shevchenko.jpeg" alt="Taras Schevchenko" />
+        <div class="text-overlay">
+          <p class="verse">
+            Ну що б, здавалося, слова... Слова та голос — більш нічого. А серце
+            б&apos;ється — ожива, Як їх почує!.. Знать, од Бога I голос той, i
+            ті слова Ідуть меж люди! . . . .
+          </p>
+        </div>
+      </div>
+    </header>
+    <section class="subtitle-container">
+      <p class="subtitle">
+        Хоча коло однодумців Шевченка складалося переважно з чоловіків, його
+        твори надихали i жінок. Завдяки йому панночки почали читати українською
+        мовою, адже до виходу &quot;Кобзаря&quot; українська література не
+        вважалася цікавою для шляхетних родин. Оксану Коваленко, подругою
+        дитинства Шевченка, вважають його першим коханням. Їй він присвятив
+        поему &quot;Мар&apos;яна-черниця&quot;. Дослідження.....<a
+          href="#"
+          id="open-first-popup"
+          class="highlight"
+          >Читати далi</a
+        >
+      </p>
+      <!-- Popup Modal 1 -->
+      <div id="first-popup" class="first-popup">
+        <div class="first-popup-content">
+          <p>Введіть адресу e-mail для доступу до повного тексту</p>
+          <div class="first-popup-buttons">
+            <button id="submit-email" class="submit-email">
+              Ввести адресу e-mail
+            </button>
+            <button id="close-first-popup" class="close-first-popup">
+              Повернутись на головну
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Second Popup Modal -->
+      <div id="second-popup" class="second-popup">
+        <div class="second-popup-content">
+          <p>Введіть свій e-mail:</p>
+          <input
+            type="email"
+            id="email-input"
+            placeholder="Ваш e-mail"
+            required
+          />
+          <button id="send-email" class="send-email">Надіслати</button>
+          <button id="close-second-popup" class="close-second-popup">
+            Назад
+          </button>
+        </div>
+      </div>
+
+      <!-- Thank You Message -->
+      <div id="thank-you-message" class="thank-you-message">
+        <div class="thank-you-message-content">
+          <p>Дякую за емейл. Очікуйте інформацію про доступи на Вашу пошту.</p>
+          <button id="return-to-home" class="return-to-home">
+            Повернутись на головну
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
